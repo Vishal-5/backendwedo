@@ -17,4 +17,4 @@ email-validator==2.2.0
 slowapi==0.1.9
 google-genai
 python-dotenv
-
+python==3.11.2
