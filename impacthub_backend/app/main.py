@@ -48,8 +48,8 @@ origins = [
     "https://impacthub-dnjr.vercel.app",
     
     "http://localhost:3000",
-    "http://localhost:3001,
-    ,
+    
+    
 ]
 
 app.add_middleware(
