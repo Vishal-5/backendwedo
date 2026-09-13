@@ -44,13 +44,15 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 origins = [
     str(settings.FRONTEND_URL), 
+    "https://we-do-sandy.vercel.app",
     "https://impacthub-dnjr.vercel.app",
     "https://impacthub-dnjr-git-main-tanishs-projects-de6a879e.vercel.app",
     "https://impacthub-l5umgo7qy-vishal-2821s-projects.vercel.app",
     "https://impacthub-mu.vercel.app",
     "https://impacthub-dnjr-a8uiow79p-tanishs-projects-de6a879e.vercel.app",
     "http://localhost:3000",
-    "http://localhost:3001",
+    "http://localhost:3001,
+    ,
 ]
 
 app.add_middleware(
